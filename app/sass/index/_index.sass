@@ -1,0 +1,390 @@
+.first
+    &__block
+        display: flex
+        margin-top: 60px
+        align-items: center
+    &__info
+        max-width: 390px
+    &__img
+        margin-left: 150px
+        img
+            width: 100%
+            height: 100%
+    &__title
+        font-size: 60px
+        line-height: 72px
+    &__subtitle
+        max-width: 340px
+    &__btn
+        width: 258px
+
+.deals
+    margin-top: 35px
+    margin-bottom: 100px
+    &__block
+        display: grid
+        grid-template-columns: 1fr 1fr 1fr
+        grid-gap: 15px
+    &__item
+        display: flex
+        flex-direction: column
+        background: #F6F5FB
+        border-radius: 5px
+        position: relative
+        cursor: pointer
+    &__video
+        position: absolute
+        top: 0
+        left: 0
+        z-index: 1
+        width: 100%
+        border-top-right-radius: 4px
+        border-top-left-radius: 4px
+        border: none
+    &__img
+        border-top-right-radius: 5px
+        border-top-left-radius: 5px
+        transition: .6s
+        opacity: 1
+        z-index: 4
+    &__content
+        display: flex
+        flex-direction: column
+        padding: 30px 40px
+    &__contentText
+        font-size: 16px
+        display: flex
+        line-height: 100%
+        &:not(:last-child)
+            margin-bottom: 18px
+        svg
+            margin-left: 10px
+
+    &__contentTitle
+        font-size: 16px
+        color: #808080
+        margin-bottom: 10px
+        line-height: 100%
+    &__more
+        display: none
+.conditions
+    margin-bottom: 120px
+    &__block
+        display: grid
+        grid-template-columns: 1fr 1fr 1fr 1fr
+        grid-gap: 15px  
+    &__item
+        display: flex
+        flex-direction: column
+        background: #F6F5FB
+        border-radius: 5px
+        position: relative
+        cursor: pointer
+    &__content
+        display: flex
+        flex-direction: column
+        padding: 30px 40px
+    &__contentText
+        font-size: 16px
+        display: flex
+        line-height: 28px
+        color: #808080
+    &__img
+        width: 100%
+
+    &__contentTitle
+        font-size: 16px
+        margin-bottom: 10px
+        line-height: 100%
+
+.how-it-works
+    margin-bottom: 100px
+    &__block
+        height: 448px   
+        display: flex
+        background: #F6F5FB
+        border-radius: 5px
+    &__title
+        margin-bottom: 24px
+    &__img
+        width: 50%
+        height: auto
+        object-fit: cover
+        border-radius: 5px
+    &__content
+        width: 50%
+        padding: 60px 40px 60px 80px
+    &__subtitle
+        color: #808080
+    &__list
+        padding-left: 0
+        li
+            font-size: 16px
+            margin-bottom: 13px
+            a
+                color: #FF1200
+
+.request
+    margin-bottom: 100px
+    &__block
+        display: flex
+    &__content
+        max-width: 546px
+    &__title
+        margin-bottom: 22px
+    &__subtitle
+        margin-bottom: 40px
+    &__img
+        margin-top: 20px
+        width: 100%
+        height: auto
+        object-fit: cover
+        border-radius: 5px
+    &__form
+        display: flex
+        flex-direction: column
+        width: 100%
+    &__input
+        border: 1px solid #EBEBF5
+        padding: 15px 22px
+        font-size: 16px
+        width: 422px
+        font-family: "ProximaNovaRegular"
+        &--radius
+            border-top-right-radius: 5px
+            border-top-left-radius: 5px
+        &--center
+            border-top: 0px 
+            border-bottom: 0px
+    &__textarea
+        border: 1px solid #EBEBF5
+        padding: 15px 22px
+        resize: none
+        height: 112px
+        font-size: 16px
+        width: 422px
+        border-bottom-right-radius: 5px
+        border-bottom-left-radius: 5px
+        margin-top: 40px
+        font-family: "ProximaNovaRegular"
+    &__send
+        display: flex
+        margin-top: 40px
+    &__btn
+        width: 204px
+        margin-right: 14px
+        height: 52px
+        border: none
+    &__policy
+        width: 100%
+        max-width: 250px
+        font-size: 14px
+        color: #A3A3A3
+        a
+            color: #FF1200
+
+.direction
+    margin-bottom: 100px
+    &__list
+        display: grid
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr
+        grid-gap: 15px
+    &__item
+        padding: 40px
+        background: #F6F5FB
+        display: flex
+        flex-direction: column
+        height: 374px
+        border-radius: 5px
+    &__img
+        margin-bottom: 20px
+    &__text
+        font-size: 15px
+        line-height: 24px
+    &__btn
+        display: block
+        font-size: 16px
+        color: #FF1200
+        margin-top: auto
+        
+.office
+    margin-bottom: 120px
+    &__img
+        height: 731px
+        width: 100%
+        object-fit: cover
+        border-radius: 5px
+
+.contact
+    margin-bottom: 110px
+    &__block    
+        display: flex
+        justify-content: space-between
+        height: 300px
+    &__info
+        display: flex
+        flex-direction: column
+    &__img
+        width: 862px
+        height: 100%
+        object-fit: cover
+        border-radius: 5px
+    &__item
+        display: flex
+        flex-direction: column
+        margin-bottom: 40px
+        &:nth-child(2)
+            margin-bottom: 0
+    &__itemTitle
+        font-size: 16px
+        margin-bottom: 6px
+        color: #A3A3A3
+    &__link
+        display: block
+        color: #000
+        font-size: 16px
+        margin-bottom: 6px
+        line-height: 24px
+    &__btn
+        display: block
+        width: 258px
+        margin-top: auto
+    
+.social
+    margin-bottom: 90px
+    &__block
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__title
+        font-size: 16px
+        color: #A3A3A3
+        font-weight: 400
+    &__list
+        display: flex
+        align-items: center
+        a
+            svg
+                path
+                    transition: .4s
+            &:not(:last-child)
+                margin-right: 69px
+            &:hover
+                svg
+                    path
+                        fill: #000
+    
+.modal-video
+    position: fixed
+    top: 0
+    left: -100%
+    width: 100%
+    height: 100vh
+    background: rgba(0, 0, 0, 0.85)
+    z-index: -10
+    opacity: 0
+    visibility: hidden
+    transition: .4s
+    &__mobile
+        display: none
+    &__block
+        width: 960px
+        height: 700px
+        background: #fff
+        position: absolute
+        top: 50%
+        left: 50%
+        border-bottom-left-radius: 5px
+        border-bottom-right-radius: 5px
+        transform: translate(-50%, -50%)
+    &__info
+        flex-direction: column
+        display: flex
+        padding: 34px 44px
+        height: 100%
+    &__title
+        font-size: 22px
+        line-height: 100%
+        margin-bottom: 18px
+    &__nav
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__text
+        display: flex
+    &__item
+        display: flex
+        flex-direction: column
+        &:not(:last-child)
+            margin-right: 50px
+        span
+            color: #999999
+            margin-bottom: 6px
+    &__btn
+        width: 258px
+
+.modal
+    position: fixed
+    top: 0
+    left: -100%
+    width: 100%
+    height: 100vh
+    background: rgba(0, 0, 0, 0.85)
+    z-index: -10
+    opacity: 0
+    visibility: hidden
+    transition: .4s
+    &__mobile
+        display: none
+    &__block
+        width: 700px
+        padding: 64px 80px
+        height: 800px
+        background: #fff
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+    &__form
+        display: flex
+        flex-direction: column
+        width: 100%
+    &__input
+        border: 1px solid #EBEBF5
+        padding: 15px 22px
+        font-size: 16px
+        width: 100%
+        font-family: "ProximaNovaRegular"
+        &--radius
+            border-top-right-radius: 5px
+            border-top-left-radius: 5px
+        &--center
+            border-top: 0px 
+            border-bottom: 0px
+    &__textarea
+        border: 1px solid #EBEBF5
+        padding: 15px 22px
+        resize: none
+        height: 112px
+        font-size: 16px
+        width: 100%
+        border-bottom-right-radius: 5px
+        border-bottom-left-radius: 5px
+        margin-top: 40px
+        font-family: "ProximaNovaRegular"
+    &__send
+        display: flex
+        margin-top: 40px
+        width: 100%
+        justify-content: space-between
+    &__btn
+        width: 204px
+        height: 52px
+        border: none
+    &__policy
+        width: 100%
+        max-width: 250px
+        font-size: 14px
+        color: #A3A3A3
+        a
+            color: #FF1200
